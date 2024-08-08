@@ -11,7 +11,6 @@
 8. [Real-World Application and Impact](#real-world-application-and-impact)
 9. [Challenges and Learnings](#challenges-and-learnings)
 10. [Future Work and Improvements](#future-work-and-improvements)
-11. [Closing Remarks](#closing-remarks)
 
 ## Introduction
 
@@ -151,8 +150,8 @@ This project aims to predict the prices of H&M articles based on their character
 - This analysis suggests focusing on ensemble methods like Random Forest and Bagging for better prediction accuracy in this dataset.
 
 - **Team Members**: Dalreen Soares, Daniela Trujillo, Lāsma Oficiere
-[Project Slides](https://www.canva.com/design/DAGNMsfo2Og/fZwq_sNEquhILKD86jjcVQ/edit?utm_content=DAGNMsfo2Og&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-[Kaggle Database](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data?select=articles.csv)
+- [Project Slides](https://www.canva.com/design/DAGNMsfo2Og/fZwq_sNEquhILKD86jjcVQ/edit?utm_content=DAGNMsfo2Og&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Kaggle Database](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data?select=articles.csv)
 
 
 
