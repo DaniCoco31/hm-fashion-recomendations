@@ -11,19 +11,12 @@
 8. [Real-World Application and Impact](#real-world-application-and-impact)
 9. [Challenges and Learnings](#challenges-and-learnings)
 10. [Future Work and Improvements](#future-work-and-improvements)
-11. [Closing Remarks](#closing-remarks)
 
 ## Introduction
 
 In the highly competitive retail industry, accurate pricing strategies are crucial for maintaining profitability and market relevance. H&M, a global leader in fashion retail, has a vast inventory of articles, each with varying characteristics such as color and type. These attributes can significantly influence customer perceptions and purchasing decisions, ultimately affecting the product's price.
 
 To enhance pricing strategies, this project aims to develop a predictive model that estimates the prices of H&M store articles based on their color and type. By leveraging machine learning techniques, we intend to uncover patterns and relationships within the data that can provide valuable insights into price determination.
-
-## Project Overview
-
-### Title Slide
-- **Project Title**: H&M Article Price Prediction
-- **Team Members**: Dalreen Soares, Daniela Trujillo, Lāsma Oficiere
 
 ### Project Overview
 This project aims to predict the prices of H&M articles based on their characteristics, specifically color and type. By developing an accurate predictive model, H&M can optimize its pricing strategy, improve inventory management, and enhance customer satisfaction.
@@ -126,11 +119,17 @@ This project aims to predict the prices of H&M articles based on their character
 
 ### Mean Absolute Error (MAE) Analysis
 
+### Mean Absolute Error (MAE) Comparison
+![MAE Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MAE.png)
+
 - The Random Forest model has the lowest MAE (0.012079), followed closely by the Bagging and Gradient Boosting models. This indicates that these models have the smallest average errors in their predictions.
 - The KNN model has a slightly higher MAE (0.013167), but it is still reasonably close to the other top models.
 - The SVM model performs poorly with a significantly higher MAE (0.076734), indicating that its predictions are less accurate on average compared to the other models.
 
 ### Mean Squared Error (MSE) Analysis
+
+### Mean Squared Error (MSE) Comparison
+![MSE Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MSE.png)
 
 - Similar to the MAE results, the Random Forest and Bagging models have the lowest MSE (0.000475), suggesting they have the smallest average squared errors.
 - The Gradient Boosting model follows closely with an MSE of 0.000490.
@@ -138,6 +137,9 @@ This project aims to predict the prices of H&M articles based on their character
 - The SVM model again performs poorly with an MSE of 0.006200, indicating higher variability in its prediction errors.
 
 ### R2 Score Analysis
+
+### R2 Score Comparison
+![R2 Score Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/R2_Score.png)
 
 - The Random Forest model has the highest R2 score (0.292370), meaning it explains the highest proportion of the variance in the target variable.
 - The Bagging model follows closely with an R2 score of 0.291828, and the Gradient Boosting model has an R2 score of 0.269941.
@@ -152,13 +154,9 @@ This project aims to predict the prices of H&M articles based on their character
 - The SVM model performs poorly in all metrics, indicating it is not suitable for this particular regression problem.
 - This analysis suggests focusing on ensemble methods like Random Forest and Bagging for better prediction accuracy in this dataset.
 
-## Charts
+- **Team Members**: Dalreen Soares, Daniela Trujillo, Lāsma Oficiere
+- [Project Slides](https://www.canva.com/design/DAGNMsfo2Og/fZwq_sNEquhILKD86jjcVQ/edit?utm_content=DAGNMsfo2Og&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Kaggle Database](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data?select=articles.csv)
 
-### Mean Absolute Error (MAE) Comparison
-![MAE Comparison]([https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MAE.png](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MAE.png))
 
-### Mean Squared Error (MSE) Comparison
-![MSE Comparison]([https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MSE.png](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MSE.png))
 
-### R2 Score Comparison
-![R2 Score Comparison]([https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/R2.png](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/R2_Score.png))
