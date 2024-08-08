@@ -51,7 +51,7 @@ This project aims to predict the prices of H&M articles based on their character
 - **Random Forest**
 - **Gradient Boosting**
 - **Bagging**
-- **Support Vector Machine (SVM)**
+- **Linear Regression**
 
 ### Evaluation Metrics and Validation Techniques
 - Metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R-squared (R²)
