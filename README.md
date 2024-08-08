@@ -77,8 +77,8 @@ This project aims to predict the prices of H&M articles based on their character
 
 ### Major Findings
 - **Random Forest**: Best performance with the lowest MAE and MSE and highest R² score.
-- **KNN, Gradient Boosting, Bagging**: Also performed well but slightly less accurate than Random Forest.
-- **SVM**: Poor performance, indicating it is not suitable for this dataset.
+- **Linear Regression, Gradient Boosting, Bagging**: Also performed well but slightly less accurate than Random Forest.
+- **KNN**: Has the lowest R² score, indicating it explains less variance compared to the other models.
 
 ### Insights
 - Ensemble methods like Random Forest and Bagging are highly effective for this type of regression problem.
@@ -116,14 +116,9 @@ This project aims to predict the prices of H&M articles based on their character
 - Incorporate more sophisticated feature engineering techniques.
 - Utilize larger datasets for training to improve model robustness.
 
-## Closing Remarks
-
 ### Title Slide
 - **Project Title**: H&M Article Price Prediction
 - **Team Members**: Dalreen Soares, Daniela Trujillo, Lāsma Oficiere
-
-### Final Remarks
-- **Thank You**: We appreciate your attention and are open to any questions or feedback.
 
 ---
 
