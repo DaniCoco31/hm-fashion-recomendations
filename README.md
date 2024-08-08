@@ -160,10 +160,10 @@ This project aims to predict the prices of H&M articles based on their character
 ## Charts
 
 ### Mean Absolute Error (MAE) Comparison
-![MAE Comparison](file-OkUwGvAKiba1YPsgpzr5kuhW.png)
+![MAE Comparison]([file-OkUwGvAKiba1YPsgpzr5kuhW.png](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MAE.png))
 
 ### Mean Squared Error (MSE) Comparison
-![MSE Comparison](file-pI3s7tGFUM5YY8Fred2mnM4G.png)
+![MSE Comparison][(file-pI3s7tGFUM5YY8Fred2mnM4G.png](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MSE.png))
 
 ### R2 Score Comparison
-![R2 Score Comparison](file-vPtK5fuLt3XGnSMqLvZK8U8D.png)
+![R2 Score Comparison]([file-vPtK5fuLt3XGnSMqLvZK8U8D.png](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/R2.png))
