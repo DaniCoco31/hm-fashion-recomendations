@@ -109,7 +109,7 @@ This project aims to predict the prices of H&M articles based on their character
 ### Mean Absolute Error (MAE) Analysis
 
 ### Mean Absolute Error (MAE) Comparison
-![MAE Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MAE.png)
+![MAE Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/Daniela/Data/Charts/MAE.png)
 
 - The Random Forest model has the lowest MAE (0.012079), followed closely by the Bagging and Gradient Boosting models. This indicates that these models have the smallest average errors in their predictions.
 - The KNN model has a slightly higher MAE (0.013167), but it is still reasonably close to the other top models.
@@ -118,7 +118,7 @@ This project aims to predict the prices of H&M articles based on their character
 ### Mean Squared Error (MSE) Analysis
 
 ### Mean Squared Error (MSE) Comparison
-![MSE Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/MSE.png)
+![MSE Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/Daniela/Data/Charts/R2_Score.png)
 
 - Similar to the MAE results, the Random Forest and Bagging models have the lowest MSE (0.000475), suggesting they have the smallest average squared errors.
 - The Gradient Boosting model follows closely with an MSE of 0.000490.
