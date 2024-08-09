@@ -117,7 +117,7 @@ This project aims to predict the prices of H&M articles based on their character
 
 - The Random Forest model has the lowest MAE (0.012079), followed closely by the Bagging and Gradient Boosting models. This indicates that these models have the smallest average errors in their predictions.
 - The KNN model has a slightly higher MAE (0.013167), but it is still reasonably close to the other top models.
-- The SVM model performs poorly with a significantly higher MAE (0.076734), indicating that its predictions are less accurate on average compared to the other models.
+- The Linear Regression model performs comparably to the ensemble models with an MAE of 0.012232.
 
 ### Mean Squared Error (MSE) Analysis
 
@@ -127,7 +127,7 @@ This project aims to predict the prices of H&M articles based on their character
 - Similar to the MAE results, the Random Forest and Bagging models have the lowest MSE (0.000475), suggesting they have the smallest average squared errors.
 - The Gradient Boosting model follows closely with an MSE of 0.000490.
 - The KNN model has a slightly higher MSE (0.000539), but it is still close to the top-performing models.
-- The SVM model again performs poorly with an MSE of 0.006200, indicating higher variability in its prediction errors.
+- The Linear Regression model has an MSE of 0.000482, performing better than KNN and close to the top models.
 
 ### R2 Score Analysis
 
@@ -137,14 +137,13 @@ This project aims to predict the prices of H&M articles based on their character
 - The Random Forest model has the highest R2 score (0.292370), meaning it explains the highest proportion of the variance in the target variable.
 - The Bagging model follows closely with an R2 score of 0.291828, and the Gradient Boosting model has an R2 score of 0.269941.
 - The KNN model has a lower R2 score (0.197233), indicating it explains less variance compared to the other top models.
-- The SVM model has a significantly negative R2 score (-8.238362), indicating it performs worse than a horizontal line (mean prediction), which suggests it is not a suitable model for this dataset.
-
+- The Linear Regression model performs well with an R2 score of 0.282263.
 ### Conclusion
 
 - The Random Forest model is the best-performing model overall, with the lowest MAE and MSE and the highest R2 score.
 - Bagging and Gradient Boosting models also perform well, showing competitive MAE, MSE, and R2 scores.
 - The KNN model performs reasonably well but is slightly less accurate compared to the ensemble models.
-- The SVM model performs poorly in all metrics, indicating it is not suitable for this particular regression problem.
+- The Linear Regression model performs comparably to the ensemble models, making it a viable option for prediction.
 - This analysis suggests focusing on ensemble methods like Random Forest and Bagging for better prediction accuracy in this dataset.
 
 - **Team Members**: Dalreen Soares, Daniela Trujillo, Lāsma Oficiere
