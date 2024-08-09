@@ -6,11 +6,10 @@
 3. [Data Selection and Preparation](#data-selection-and-preparation)
 4. [Feature Engineering and Selection](#feature-engineering-and-selection)
 5. [Model Building and Evaluation](#model-building-and-evaluation)
-6. [Hyperparameter Tuning and Model Optimization](#hyperparameter-tuning-and-model-optimization)
-7. [Key Findings and Insights](#key-findings-and-insights)
-8. [Real-World Application and Impact](#real-world-application-and-impact)
-9. [Challenges and Learnings](#challenges-and-learnings)
-10. [Future Work and Improvements](#future-work-and-improvements)
+6. [Key Findings and Insights](#key-findings-and-insights)
+7. [Real-World Application and Impact](#real-world-application-and-impact)
+8. [Challenges and Learnings](#challenges-and-learnings)
+9. [Future Work and Improvements](#future-work-and-improvements)
 
 ## Introduction
 
@@ -56,12 +55,6 @@ This project aims to predict the prices of H&M articles based on their character
 ### Evaluation Metrics and Validation Techniques
 - Metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R-squared (R²)
 - Validation: Train-test split, cross-validation
-
-## Hyperparameter Tuning and Model Optimization
-
-### Techniques Employed
-- Grid search
-- Cross-validation
 
 ### Improvements Achieved
 - Enhanced model performance through systematic hyperparameter tuning.
