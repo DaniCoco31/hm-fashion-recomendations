@@ -102,10 +102,6 @@ This project aims to predict the prices of H&M articles based on their character
 - Incorporate more sophisticated feature engineering techniques.
 - Utilize larger datasets for training to improve model robustness.
 
-### Title Slide
-- **Project Title**: H&M Article Price Prediction
-- **Team Members**: Dalreen Soares, Daniela Trujillo, Lāsma Oficiere
-
 ---
 
 ## Analysis
@@ -149,6 +145,7 @@ This project aims to predict the prices of H&M articles based on their character
 - **Team Members**: Dalreen Soares, Daniela Trujillo, Lāsma Oficiere
 - [Project Slides](https://www.canva.com/design/DAGNMsfo2Og/fZwq_sNEquhILKD86jjcVQ/edit?utm_content=DAGNMsfo2Og&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Kaggle Database](https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/data?select=articles.csv)
+
 
 
 
