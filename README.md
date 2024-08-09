@@ -128,7 +128,7 @@ This project aims to predict the prices of H&M articles based on their character
 ### R2 Score Analysis
 
 ### R2 Score Comparison
-![R2 Score Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/main/Data/Charts/R2_Score.png)
+![R2 Score Comparison](https://github.com/DaniCoco31/hm-fashion-recomendations/blob/Daniela/Data/Charts/R2_Score.png)
 
 - The Random Forest model has the highest R2 score (0.292370), meaning it explains the highest proportion of the variance in the target variable.
 - The Bagging model follows closely with an R2 score of 0.291828, and the Gradient Boosting model has an R2 score of 0.269941.
